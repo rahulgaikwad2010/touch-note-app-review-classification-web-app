@@ -4,13 +4,12 @@
 
 An AI solution which cognitively able to detect(classify) reviews in fractions of seconds. hence, fewer human interventions, more precise, uniform results, and most importantly operational efficiency.
 
-## Model Training Part
-
-
-
 ## Getting Started
 
 Follow these instructions to get the project up and running on your local machine for development and testing purposes.
+
+### Model Training Part
+
 
 ### Installing
 
@@ -41,7 +40,7 @@ C:\Users\Alice> python run.py
  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
 ```
 
-### Usage
+### Dockerizing App
 
 ##### Docker file
 ```
