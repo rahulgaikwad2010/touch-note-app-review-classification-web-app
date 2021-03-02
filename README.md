@@ -74,6 +74,7 @@ docker run --name touchnote-review-analysis-app -p 5000:5000 touchnote-review-an
 
 * **Rahul Gaikwad** - *Initial work and development*
 
-## Acknowledgments
+## References
 
-* People you want to thank
+* [Sentiment-analysis-on-Google-Play-store-apps-reviews](https://github.com/Hrd2D/Sentiment-analysis-on-Google-Play-store-apps-reviews/blob/master/main.ipynb)
+* [Dockerize Flask App](https://www.geeksforgeeks.org/dockerize-your-flask-app/)
