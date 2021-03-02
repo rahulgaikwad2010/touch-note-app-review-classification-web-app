@@ -93,7 +93,7 @@ An AI solution which cognitively able to detect(classify) reviews in fractions o
 
 ### Model Training Part
 
-Please refer `Touch Note App Review Analysis/Touch Note App Review Analysis.ipynb ` notebook for data analysis & model training. 
+Please refer `Touch Note App Review Analysis/Touch Note App Review Analysis.ipynb`  notebook for data analysis & model training. 
 
 <br/>
 <br/>
@@ -188,13 +188,11 @@ Progress bars are shown during docker push, which show the uncompressed size. Th
 1.0.0 
 
 <br/>
-<br/>
 
 ## Author
 
 * **Rahul Gaikwad** - Initial work and development
 
-<br/>
 <br/>
 
 ## References
