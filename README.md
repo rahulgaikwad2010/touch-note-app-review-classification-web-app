@@ -1,4 +1,4 @@
-<center><h1>Touch Note App Review Analysis</h1></center>
+# Touch Note App Review Analysis
 
 ![Touch Note App Review Analysos](https://github.com/rahulgaikwad2010/touch-note-app-review-analysis/blob/main/static/img/touchnote_app.png?raw=true)
 
