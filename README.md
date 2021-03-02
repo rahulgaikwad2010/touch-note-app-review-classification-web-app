@@ -51,51 +51,29 @@ An AI solution which cognitively able to detect(classify) reviews in fractions o
 ├──  Touch Note App Review Analysis  
 |    |
 │    └── models  - here's the default config file.
-│    │    ├── model_mapping.json  - here's the default config file.
 │    │    ├── log_reg.sav  - here's the default config file.
 │    │    ├── naive_bayes.sav  - here's the default config file.
 │    │    └── svm.sav  - here's the default config file.
 │    │
 │    └── data  - here's the default config file.
-│    │    ├── __init__.py  - here's the default config file.
-│    │    └── TextPreprocessor.py  - here's the default config file.
+│    │    ├── Contraction.json  - here's the default config file.
+│    │    └── google_play_store_apps_reviews_training.csv  - here's the default config file.
 |    |
 │    └── Touch Note App Review Analysis.html  - here's the default config file.
 │    └── Touch Note App Review Analysis.ipynb  - here's the default config file.
 |
 │
-├──  data  
-│    └── datasets  - here's the datasets folder that is responsible for all data handling.
-│    └── transforms  - here's the data preprocess folder that is responsible for all data augmentation.
-│    └── build.py  		   - here's the file to make dataloader.
-│    └── collate_batch.py   - here's the file that is responsible for merges a list of samples to form a mini-batch.
+├──  static  
+│    └── asset  - here's the datasets folder that is responsible for all data handling.
+│    └── img  - here's the data preprocess folder that is responsible for all data augmentation.
+│    └── js  		   - here's the file to make dataloader.
+│    └── style  		   - here's the file to make dataloader.
+│    └── index.js   - here's the file that is responsible for merges a list of samples to form a mini-batch.
 │
 │
-├──  engine
-│   ├── trainer.py     - this file contains the train loops.
-│   └── inference.py   - this file contains the inference process.
+├── templates              - this folder contains any customed layers of your project.
+│   └── index.html
 │
-│
-├── layers              - this folder contains any customed layers of your project.
-│   └── conv_layer.py
-│
-│
-├── modeling            - this folder contains any model of your project.
-│   └── example_model.py
-│
-│
-├── solver             - this folder contains optimizer of your project.
-│   └── build.py
-│   └── lr_scheduler.py
-│   
-│ 
-├──  tools                - here's the train/test model of your project.
-│    └── train_net.py  - here's an example of train model that is responsible for the whole pipeline.
-│ 
-│ 
-└── utils
-│    ├── logger.py
-│    └── any_other_utils_you_need
 │
 ├── Dockerfile               - here's the docker file used to create docker image.
 ├── README.md                - here's the ReadMe of an application.
