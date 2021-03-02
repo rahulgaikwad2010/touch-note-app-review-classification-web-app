@@ -13,13 +13,15 @@ An AI solution which cognitively able to detect(classify) reviews in fractions o
 -  [Author](#author)
 -  [References](#references)
 
+
+
 ### Project Structure Overview
 ```
 ├──  TextClassifier
 │    │
-│    ├── common_operations          - here's the default config file.
-│    │    ├── __init__.py           - here's the default config file.
-│    │    └── common_operations.py  - here's the default config file.
+│    ├── common_operations          - this package contains common operation tasks.
+│    │    ├── __init__.py
+│    │    └── common_operations.py  - this file reads config and convert to dictionary.
 │    │
 │    ├── data                       - here's the default config file.
 │    │    ├── Contraction.json      - here's the default config file.
