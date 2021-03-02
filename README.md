@@ -7,7 +7,7 @@ An AI solution which cognitively able to detect(classify) reviews in fractions o
 # Table Of Contents
 -  [Project Structure Overview](#project-structure-overview)
 -  [Model Training Part](#model-training-part)
--  [Installing](#installing)
+-  [Run python app](#run-python-app)
 -  [Dockerizing an application](#dockerizing-an-application)
 -  [Version](#version)
 -  [Author](#author)
@@ -64,7 +64,7 @@ An AI solution which cognitively able to detect(classify) reviews in fractions o
 ### Model Training Part
 
 
-### Installing
+### Run python app
 
 A step by step series of examples that tell you how to get a development env running
 
