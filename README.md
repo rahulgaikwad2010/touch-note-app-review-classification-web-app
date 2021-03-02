@@ -63,15 +63,15 @@ An AI solution which cognitively able to detect(classify) reviews in fractions o
 │    └── Touch Note App Review Analysis.ipynb  - here's the default config file.
 |
 │
-├──  static  
-│    └── asset  - here's the datasets folder that is responsible for all data handling.
-│    └── img  - here's the data preprocess folder that is responsible for all data augmentation.
-│    └── js  		   - here's the file to make dataloader.
-│    └── style  		   - here's the file to make dataloader.
-│    └── index.js   - here's the file that is responsible for merges a list of samples to form a mini-batch.
+├──  static                  - this folder contains bootstrap 4 files.
+│    └── asset
+│    └── img
+│    └── js
+│    └── style
+│    └── index.js            - here's the file that is responsible for frond-end form submission to flask app and vice versa.
 │
 │
-├── templates              - this folder contains any customed layers of your project.
+├── templates                - this folder contains front-end html files.
 │   └── index.html
 │
 │
