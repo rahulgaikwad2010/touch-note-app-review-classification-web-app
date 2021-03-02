@@ -13,7 +13,7 @@ An AI solution which cognitively able to detect(classify) reviews in fractions o
 -  [Author](#author)
 -  [References](#references)
 
-
+<br/>
 
 ### Project Structure Overview
 ```
@@ -23,31 +23,31 @@ An AI solution which cognitively able to detect(classify) reviews in fractions o
 │    │    ├── __init__.py
 │    │    └── common_operations.py  - this file reads config and convert to dictionary.
 │    │
-│    ├── data                       - here's the default config file.
-│    │    ├── Contraction.json      - here's the default config file.
-│    │    └── TouchnoteReveiws.csv  - here's the default config file.
+│    ├── data                       - this folder contains data for testing.
+│    │    ├── Contraction.json      - file for text preprocessing.
+│    │    └── TouchnoteReveiws.csv  - Sample reviews of touch note app.
 │    │
-│    └── logger                     - here's the default config file.
-│    │    ├── __init__.py           - here's the default config file.
-│    │    ├── APILogger.py          - here's the default config file.
-│    │    ├── logger.py             - here's the default config file.
-│    │    └── LoggerError.py        - here's the default config file.
+│    └── logger                     - here's the logger package.
+│    │    ├── __init__.py
+│    │    ├── APILogger.py          - to send non-success code to front-end.
+│    │    ├── logger.py             - to log info & error in the code.
+│    │    └── LoggerError.py        - to log error while creating a logger object.
 │    │
-│    └── ModelPredictor             - here's the default config file.
-│    │    ├── __init__.py           - here's the default config file.
-│    │    └── ModelPredictor.py     - here's the default config file.
+│    └── ModelPredictor             - this package is used to get prediction.
+│    │    ├── __init__.py
+│    │    └── ModelPredictor.py     - this code reads input and return prediction.
 │    │
-│    └── models                     - here's the default config file.
-│    │    ├── model_mapping.json    - here's the default config file.
-│    │    ├── log_reg.sav           - here's the default config file.
-│    │    ├── naive_bayes.sav       - here's the default config file.
-│    │    └── svm.sav               - here's the default config file.
+│    └── models                     - this folder contains exported models.
+│    │    ├── model_mapping.json    - to store model metadata. ex. Path.
+│    │    ├── log_reg.sav
+│    │    ├── naive_bayes.sav
+│    │    └── svm.sav
 │    │
-│    └── TextPreprocessor           - here's the default config file.
-│    │    ├── __init__.py           - here's the default config file.
-│    │    └── TextPreprocessor.py   - here's the default config file.
+│    └── TextPreprocessor           - here's the package used to clean the raw input.
+│    │    ├── __init__.py
+│    │    └── TextPreprocessor.py   - this code takes raw text and return clean string for prediction.
 │    │
-│    └── TextClassifier.py          - here's the default config file.
+│    └── TextClassifier.py          - driver code to execute operations smoothly.
 │
 │
 ├──  Touch Note App Review Analysis                        - this folder contains model training related data, models & notebook.
