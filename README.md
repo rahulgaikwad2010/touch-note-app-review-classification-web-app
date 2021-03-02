@@ -4,6 +4,10 @@
 
 An AI solution which cognitively able to detect(classify) reviews in fractions of seconds. hence, fewer human interventions, more precise, uniform results, and most importantly operational efficiency.
 
+## Model Training Part
+
+
+
 ## Getting Started
 
 Follow these instructions to get the project up and running on your local machine for development and testing purposes.
@@ -11,7 +15,6 @@ Follow these instructions to get the project up and running on your local machin
 ### Installing
 
 A step by step series of examples that tell you how to get a development env running
-
 
 ```
 pip install -r requirements.txt
@@ -68,13 +71,33 @@ The above command will create an app with the tag touchnote-review-analysis-app
 docker run --name touchnote-review-analysis-app -p 5000:5000 touchnote-review-analysis-app
 ```
  
+##### Create a new image from a container’s changes
+
+```
+docker commit container-id user-name/touchnote-review-analysis-app:latest
+```
+
+##### Before pushing to docker hub repo login into docker hub using docker account
+
+```
+docker login
+```
+
+##### Push an image to a registry
+
+```
+docker push user-name/touchnote-review-analysis-app:latest
+```
+
+Progress bars are shown during docker push, which show the uncompressed size. The actual amount of data that’s pushed will be compressed before sending, so the uploaded size will not be reflected by the progress bar.
+
 ## Version
 
 1.0.0 
 
 ## Author
 
-* **Rahul Gaikwad** - *Initial work and development*
+* **Rahul Gaikwad** - Initial work and development
 
 ## References
 
