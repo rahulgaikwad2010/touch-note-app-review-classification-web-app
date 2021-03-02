@@ -48,19 +48,19 @@ An AI solution which cognitively able to detect(classify) reviews in fractions o
 │    └── TextClassifier.py  - here's the default config file.
 │
 │
-├──  Touch Note App Review Analysis  
+├──  Touch Note App Review Analysis                        - this folder contains model training related data, models & notebook.
 |    |
-│    └── models  - here's the default config file.
-│    │    ├── log_reg.sav  - here's the default config file.
-│    │    ├── naive_bayes.sav  - here's the default config file.
-│    │    └── svm.sav  - here's the default config file.
+│    └── models                                            - this folder holds exported models.
+│    │    ├── log_reg.sav                                  - Logistic Regression Model.
+│    │    ├── naive_bayes.sav                              - Naive Bayes Model
+│    │    └── svm.sav                                      - SVM Model.
 │    │
-│    └── data  - here's the default config file.
-│    │    ├── Contraction.json  - here's the default config file.
-│    │    └── google_play_store_apps_reviews_training.csv  - here's the default config file.
+│    └── data                                              - this folder contains data used for model training.
+│    │    ├── Contraction.json                             - here's the file for text preprocessing.
+│    │    └── google_play_store_apps_reviews_training.csv  - Training Dataset.
 |    |
-│    └── Touch Note App Review Analysis.html  - here's the default config file.
-│    └── Touch Note App Review Analysis.ipynb  - here's the default config file.
+│    └── Touch Note App Review Analysis.html               - here's the default config file.
+│    └── Touch Note App Review Analysis.ipynb              - here's the default config file.
 |
 │
 ├──  static                  - this folder contains bootstrap 4 files.
@@ -68,7 +68,7 @@ An AI solution which cognitively able to detect(classify) reviews in fractions o
 │    └── img
 │    └── js
 │    └── style
-│    └── index.js            - here's the file that is responsible for frond-end form submission to flask app and vice versa.
+│    └── index.js            - here's the file for frond-end form submission to flask app and vice versa.
 │
 │
 ├── templates                - this folder contains front-end html files.
