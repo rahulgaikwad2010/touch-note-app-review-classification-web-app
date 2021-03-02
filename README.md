@@ -16,16 +16,53 @@ An AI solution which cognitively able to detect(classify) reviews in fractions o
 ### Project Structure Overview
 ```
 ├──  TextClassifier
-│    └── defaults.py  - here's the default config file.
-│    └── defaults.py  - here's the default config file.
-│    └── defaults.py  - here's the default config file.
-│    └── defaults.py  - here's the default config file.
-│    └── defaults.py  - here's the default config file.
+│    │
+│    ├── common_operations  - here's the default config file.
+│    │    ├── __init__.py  - here's the default config file.
+│    │    └── common_operations.py  - here's the default config file.
+│    │
+│    ├── data  - here's the default config file.
+│    │    ├── Contraction.json  - here's the default config file.
+│    │    └── TouchnoteReveiws.csv  - here's the default config file.
+│    │
+│    └── logger  - here's the default config file.
+│    │    ├── __init__.py  - here's the default config file.
+│    │    ├── APILogger.py  - here's the default config file.
+│    │    ├── logger.py  - here's the default config file.
+│    │    └── LoggerError.py  - here's the default config file.
+│    │
+│    └── ModelPredictor  - here's the default config file.
+│    │    ├── __init__.py  - here's the default config file.
+│    │    └── ModelPredictor.py  - here's the default config file.
+│    │
+│    └── models  - here's the default config file.
+│    │    ├── model_mapping.json  - here's the default config file.
+│    │    ├── log_reg.sav  - here's the default config file.
+│    │    ├── naive_bayes.sav  - here's the default config file.
+│    │    └── svm.sav  - here's the default config file.
+│    │
+│    └── TextPreprocessor  - here's the default config file.
+│    │    ├── __init__.py  - here's the default config file.
+│    │    └── TextPreprocessor.py  - here's the default config file.
+│    │
+│    └── TextClassifier.py  - here's the default config file.
 │
 │
-├──  configs  
-│    └── train_mnist_softmax.yml  - here's the specific config file for specific model or dataset.
-│ 
+├──  Touch Note App Review Analysis  
+|    |
+│    └── models  - here's the default config file.
+│    │    ├── model_mapping.json  - here's the default config file.
+│    │    ├── log_reg.sav  - here's the default config file.
+│    │    ├── naive_bayes.sav  - here's the default config file.
+│    │    └── svm.sav  - here's the default config file.
+│    │
+│    └── data  - here's the default config file.
+│    │    ├── __init__.py  - here's the default config file.
+│    │    └── TextPreprocessor.py  - here's the default config file.
+|    |
+│    └── Touch Note App Review Analysis.html  - here's the default config file.
+│    └── Touch Note App Review Analysis.ipynb  - here's the default config file.
+|
 │
 ├──  data  
 │    └── datasets  - here's the datasets folder that is responsible for all data handling.
