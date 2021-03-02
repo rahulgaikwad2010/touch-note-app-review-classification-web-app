@@ -14,6 +14,7 @@ An AI solution which cognitively able to detect(classify) reviews in fractions o
 -  [References](#references)
 
 <br/>
+<br/>
 
 ### Project Structure Overview
 ```
