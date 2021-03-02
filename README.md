@@ -93,6 +93,8 @@ An AI solution which cognitively able to detect(classify) reviews in fractions o
 
 ### Model Training Part
 
+Please refer `Touch Note App Review Analysis` directory 
+
 <br/>
 <br/>
 
