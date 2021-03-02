@@ -4,6 +4,9 @@
 
 An AI solution which cognitively able to detect(classify) reviews in fractions of seconds. hence, fewer human interventions, more precise, uniform results, and most importantly operational efficiency.
 
+<br/>
+<br/>
+
 # Table Of Contents
 -  [Project Structure Overview](#project-structure-overview)
 -  [Model Training Part](#model-training-part)
@@ -85,8 +88,13 @@ An AI solution which cognitively able to detect(classify) reviews in fractions o
 └── run.py                   - here's runnable of an application.
 ```
 
+<br/>
+<br/>
+
 ### Model Training Part
 
+<br/>
+<br/>
 
 ### Run python app
 
@@ -116,6 +124,9 @@ C:\Users\Alice> python run.py
  * Debug mode: on
  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
 ```
+
+<br/>
+<br/>
 
 ### Dockerizing an application
 
@@ -167,13 +178,22 @@ docker push user-name/touchnote-review-analysis-app:latest
 
 Progress bars are shown during docker push, which show the uncompressed size. The actual amount of data that’s pushed will be compressed before sending, so the uploaded size will not be reflected by the progress bar.
 
+<br/>
+<br/>
+
 ## Version
 
 1.0.0 
 
+<br/>
+<br/>
+
 ## Author
 
 * **Rahul Gaikwad** - Initial work and development
+
+<br/>
+<br/>
 
 ## References
 
