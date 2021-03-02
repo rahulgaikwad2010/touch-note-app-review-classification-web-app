@@ -56,11 +56,11 @@ An AI solution which cognitively able to detect(classify) reviews in fractions o
 │    ├── logger.py
 │    └── any_other_utils_you_need
 │
-├── Dockerfile   - this foler contains unit test of your project.
-├── README.md   - this foler contains unit test of your project.
-├── config.ini   - this foler contains unit test of your project.
-├── requirements.txt   - this foler contains unit test of your project.
-└── run.py   - this foler contains unit test of your project.
+├── Dockerfile                - here's the train/test model of your project.
+├── README.md                - here's the train/test model of your project.
+├── config.ini                - here's the train/test model of your project.
+├── requirements.txt                - here's the train/test model of your project.
+└── run.py                - here's the train/test model of your project.
 ```
 
 ### Model Training Part
