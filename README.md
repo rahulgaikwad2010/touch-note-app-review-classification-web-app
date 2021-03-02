@@ -8,6 +8,14 @@ An AI solution which cognitively able to detect(classify) reviews in fractions o
 
 Follow these instructions to get the project up and running on your local machine for development and testing purposes.
 
+# Table Of Contents
+-  [Model Training Part](#model-training-part)
+-  [Installing](#installing)
+-  [Dockerizing an application](#dockerizing-an-application)
+-  [Version](#version)
+-  [Author](#author)
+-  [References](#references)
+-  
 ### Model Training Part
 
 
@@ -40,7 +48,7 @@ C:\Users\Alice> python run.py
  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
 ```
 
-### Dockerizing App
+### Dockerizing an application
 
 ##### Docker file
 ```
