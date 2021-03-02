@@ -1,6 +1,6 @@
 # Touch Note App Review Analysis
 
-![Touch Note App Review Analysos](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![Touch Note App Review Analysos](https://github.com/rahulgaikwad2010/touch-note-app-review-analysis/blob/main/static/img/touchnote_app.png?raw=true)
 
 An AI solution which cognitively able to detect(classify) reviews in fractions of seconds. hence, fewer human interventions, more precise, uniform results, and most importantly operational efficiency.
 
