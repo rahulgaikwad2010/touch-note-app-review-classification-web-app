@@ -15,7 +15,11 @@ An AI solution which cognitively able to detect(classify) reviews in fractions o
 
 ### Project Structure Overview
 ```
-├──  config
+├──  TextClassifier
+│    └── defaults.py  - here's the default config file.
+│    └── defaults.py  - here's the default config file.
+│    └── defaults.py  - here's the default config file.
+│    └── defaults.py  - here's the default config file.
 │    └── defaults.py  - here's the default config file.
 │
 │
