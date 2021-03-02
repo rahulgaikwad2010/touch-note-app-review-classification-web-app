@@ -56,11 +56,11 @@ An AI solution which cognitively able to detect(classify) reviews in fractions o
 │    ├── logger.py
 │    └── any_other_utils_you_need
 │
-├── Dockerfile                - here's the train/test model of your project.
-├── README.md                - here's the train/test model of your project.
-├── config.ini                - here's the train/test model of your project.
-├── requirements.txt                - here's the train/test model of your project.
-└── run.py                - here's the train/test model of your project.
+├── Dockerfile               - here's the docker file used to create docker image.
+├── README.md                - here's the ReadMe of an application.
+├── config.ini               - here's the specific config file for the application.
+├── requirements.txt         - here's the python package requirement txt.
+└── run.py                   - here's runnable of an application.
 ```
 
 ### Model Training Part
