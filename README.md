@@ -4,10 +4,6 @@
 
 An AI solution which cognitively able to detect(classify) reviews in fractions of seconds. hence, fewer human interventions, more precise, uniform results, and most importantly operational efficiency.
 
-## Getting Started
-
-Follow these instructions to get the project up and running on your local machine for development and testing purposes.
-
 # Table Of Contents
 -  [Project Structure Overview](#project-structure-overview)
 -  [Model Training Part](#model-training-part)
