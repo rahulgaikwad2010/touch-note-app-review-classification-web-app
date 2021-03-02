@@ -1,0 +1,13 @@
+{
+	"Supervised_models": {
+		"svm": {
+			"path": "./TextClassifier/models/svm.sav"
+		},
+		"log_reg": {
+			"path": "./TextClassifier/models/log_reg.sav"
+		},
+		"nb": {
+			"path": "./TextClassifier/models/naive_bayes.sav"
+		}
+	}
+}
