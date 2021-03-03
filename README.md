@@ -118,7 +118,6 @@ Now, you can run project as follows
 python run.py
 ```
 
-You can run a test as follows
 ```
 C:\Users\Alice> python run.py
  * Serving Flask app "run" (lazy loading)
