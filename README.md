@@ -12,6 +12,7 @@ An AI solution which cognitively able to detect(classify) reviews in fractions o
 -  [Model Training Part](#model-training-part)
 -  [Run python app](#run-python-app)
 -  [Dockerizing an application](#dockerizing-an-application)
+-  [Deploy to Kubernetes](#deploy-to-kubernetes)
 -  [Version](#version)
 -  [Author](#author)
 -  [References](#references)
@@ -178,6 +179,48 @@ docker push user-name/touchnote-review-analysis-app:latest
 ```
 
 Progress bars are shown during docker push, which show the uncompressed size. The actual amount of data that’s pushed will be compressed before sending, so the uploaded size will not be reflected by the progress bar.
+
+<br/>
+<br/>
+
+## Deploy to Kubernetes
+
+I have already wrote a Kubernetes YAML file. Place the following in a file called deployment.yaml under kubernetes folder:
+
+```
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: touchnote-app
+  namespace: default
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      touchnote_app: web
+  template:
+    metadata:
+      labels:
+        touchnote_app: web
+    spec:
+      containers:
+      - name: app-site
+        image: rahul2010/touchnote-review-analysis-app:latest
+        ports:
+        - containerPort: 5000
+```
+
+##### Deploy and check your application
+
+```
+kubectl apply -f .\kubernetes\deployment.yaml
+```
+
+you should see output that looks like the following, indicating your Kubernetes objects were created successfully:
+
+```
+deployment.apps/touchnote-app created
+```
 
 <br/>
 <br/>
