@@ -212,6 +212,7 @@ spec:
 
 ##### Deploy and check your application
 
+1. In a terminal, navigate to where you created deployment.yaml and deploy your application to Kubernetes:
 ```
 kubectl apply -f .\kubernetes\deployment.yaml
 ```
@@ -221,6 +222,15 @@ you should see output that looks like the following, indicating your Kubernetes 
 ```
 deployment.apps/touchnote-app created
 ```
+
+2. Make sure everything worked by listing your deployments:
+
+```
+NAME            READY   UP-TO-DATE   AVAILABLE   AGE
+touchnote-app   2/2     2            2           53m
+```
+
+This indicates all one of the pods you asked for in your YAML are up and running.
 
 <br/>
 <br/>
