@@ -82,6 +82,10 @@ An AI solution which cognitively able to detect(classify) reviews in fractions o
 │   └── index.html
 │
 │
+├── kubernetes                - this folder contains yaml file for deployment.
+│   └── deployment.yaml       - Kubernetes YAML file
+│
+│
 ├── Dockerfile               - here's the docker file used to create docker image.
 ├── README.md                - here's the ReadMe of an application.
 ├── config.ini               - here's the specific config file for the application.
