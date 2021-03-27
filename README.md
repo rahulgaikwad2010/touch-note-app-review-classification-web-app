@@ -1,4 +1,4 @@
-# Touch Note App Review Analysis Classification Web App
+# Touch Note App Review Classification Web App
 
 ![Touch Note App Review Analysos](https://github.com/rahulgaikwad2010/touch-note-app-review-analysis/blob/main/static/img/touchnote_app.png?raw=true)
 
